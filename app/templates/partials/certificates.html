@@ -1,0 +1,12 @@
+<section id="certificates" class="section">
+    <h2 class="section-title">Certificates</h2>
+    <div class="certificates-list">
+        {% for cert in certificates %}
+        <div class="certificate-item card">
+            <h3 class="cert-name">{{ cert.name }}</h3>
+            <p class="cert-issuer">{{ cert.issuer }}</p>
+            <span class="cert-year">{{ cert.year }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>

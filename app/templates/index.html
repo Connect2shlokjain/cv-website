@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include "partials/hero.html" %}
+
+<div class="content-grid">
+    <div class="main-column">
+
+        {% include "partials/experience.html" %}
+        {% include "partials/projects.html" %}
+        {% include "partials/contact.html" %}
+    </div>
+    <aside class="sidebar">
+        {% include "partials/skills.html" %}
+        {% include "partials/education.html" %}
+        {% include "partials/certificates.html" %}
+    </aside>
+</div>
+{% endblock %}

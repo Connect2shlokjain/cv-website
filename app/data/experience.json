@@ -1,0 +1,40 @@
+[
+    {
+        "title": "AI Engineer",
+        "company": "Upsala",
+        "start_date": "Sep 2025",
+        "end_date": "Current",
+        "description": "Serving Ministry of Defence through Upsala is an experience, using technology and resources like never before.",
+        "bullets": [
+            "Used and Integrated various LLMs and transformed them to get predictions.",
+            "Implemented RAG using LangChain AI."
+        ]
+    },
+    {
+        "title": "Python AI Developer",
+        "company": "Flynaut Saas",
+        "start_date": "Oct 2024",
+        "end_date": "Sep 2025",
+        "description": "Full Time Role focusing on Python AI Development.",
+        "bullets": [
+            "Python Language & WebScraping.",
+            "Hands on AI Tools and Technology.",
+            "API building.",
+            "Django Development and deployment.",
+            "Machine Learning, Deep Learning, NLP, Computer Vision."
+        ]
+    },
+    {
+        "title": "Data Science Intern",
+        "company": "Ai Variant Project",
+        "start_date": "29 May 2023",
+        "end_date": "29 Nov 2023",
+        "description": "6 Months Internship.",
+        "bullets": [
+            "Worked on Streamlit apps (global & local).",
+            "Implemented Random Forest, TFIDF, NLP (data-mining).",
+            "Used Flask for deployment.",
+            "Achieved 97% Accuracy."
+        ]
+    }
+]

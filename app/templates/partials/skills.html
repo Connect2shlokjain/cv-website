@@ -1,0 +1,15 @@
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+        {% for category, items in skills.items() %}
+        <div class="skill-category card">
+            <h3 class="category-title">{{ category }}</h3>
+            <div class="skill-tags">
+                {% for skill in items %}
+                <span class="skill-tag">{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

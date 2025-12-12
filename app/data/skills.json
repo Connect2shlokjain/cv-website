@@ -1,0 +1,43 @@
+{
+    "Languages": [
+        "Python",
+        "HTML/CSS",
+        "R"
+    ],
+    "Developer Tools": [
+        "Anaconda (Spyder, Jupyter-Notebook)",
+        "Tableau",
+        "Power BI",
+        "Ms. Excel",
+        "MySQL Workbench",
+        "Google Colab",
+        "Docker",
+        "Virtual Machines",
+        "PgAdmin",
+        "WSL"
+    ],
+    "Libraries": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Scikit-Learn",
+        "TensorFlow",
+        "Pytorch",
+        "Beautiful Soup",
+        "Scrapy",
+        "OpenCV",
+        "Spotipy",
+        "Django",
+        "Psycopg2",
+        "Psql"
+    ],
+    "Extras": [
+        "Flask",
+        "FastAPI",
+        "AWS Hosting",
+        "Streamlit Hosting",
+        "SQL",
+        "Server-Configurations",
+        "Remote hosting over internal Servals"
+    ]
+}

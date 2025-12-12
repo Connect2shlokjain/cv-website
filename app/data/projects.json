@@ -1,0 +1,47 @@
+[
+    {
+        "name": "NLP-Review System (Fake or Real)",
+        "date": "Nov 2023",
+        "role": "Team Lead",
+        "description": "A system to detect fake reviews using NLP techniques.",
+        "tech_stack": [
+            "Streamlit",
+            "Random Forest",
+            "TFIDF",
+            "NLP",
+            "Flask"
+        ],
+        "metrics": "97% Accuracy",
+        "contributions": [
+            "Data Collection help",
+            "EDA Idea lead",
+            "Model Selection help",
+            "Model building help",
+            "Evaluation Lead",
+            "Deployment Lead"
+        ]
+    },
+    {
+        "name": "Music Recommendation System",
+        "date": "Sep - Oct 2023",
+        "role": "Team Lead",
+        "description": "A music recommendation engine.",
+        "tech_stack": [
+            "Streamlit",
+            "Random Forest",
+            "K-means Clustering",
+            "EDA",
+            "Spotipy",
+            "FastAPI"
+        ],
+        "metrics": "93% Accuracy",
+        "contributions": [
+            "Data Collection help",
+            "EDA Idea lead",
+            "Model Selection help",
+            "Model building help",
+            "Evaluation Lead",
+            "Deployment Lead"
+        ]
+    }
+]

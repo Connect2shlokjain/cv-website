@@ -1,0 +1,13 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2025 {{ resume.name }}. All rights reserved.</p>
+        <div class="footer-socials">
+            {% if resume.socials.linkedin %}
+            <a href="{{ resume.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+            {% endif %}
+            {% if resume.socials.github %}
+            <a href="{{ resume.socials.github }}" target="_blank"><i class="fab fa-github"></i></a>
+            {% endif %}
+        </div>
+    </div>
+</footer>
