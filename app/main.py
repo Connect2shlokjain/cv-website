@@ -26,17 +26,15 @@ async def home(request: Request):
     education = load_json("education.json")
     skills = load_json("skills.json")
     certificates = load_json("certificates.json")
-
-    # 🔥 MERGE EVERYTHING INTO RESUME (KEY FIX)
-    resume["experience"] = experience
-    resume["projects"] = projects
-    resume["education"] = education
-    resume["skills"] = skills
-    resume["certificates"] = certificates
-
+    
     return templates.TemplateResponse("index.html", {
         "request": request,
-        "resume": resume
+        "resume": resume,
+        "experience": experience,
+        "projects": projects,
+        "education": education,
+        "skills": skills,
+        "certificates": certificates
     })
 
 @app.get("/api/resume")
