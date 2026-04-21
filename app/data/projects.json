@@ -42,40 +42,42 @@
             "Model building help",
             "Evaluation Lead",
             "Deployment Lead"
-        ],
-        {
-        "title": "LLM-Based RAG & NL2SQL System",
+        ]
+    },
+    {
+        "name": "LLM-Based RAG & NL2SQL System",
         "role": "AI Engineer",
         "description": "Built a production-oriented AI system combining RAG pipelines and NL2SQL to enable natural language interaction with structured data.",
-        
-        "tech": ["LangChain", "Python", "FastAPI", "PostgreSQL"],
-
+        "tech_stack": [
+            "LangChain",
+            "Python",
+            "FastAPI",
+            "PostgreSQL"
+        ],
         "highlight": "Production System",
         "impact": "Enabled users to query databases using natural language with contextual understanding",
-
         "details": [
             "Designed RAG pipelines for context-aware retrieval",
             "Built NL2SQL system for optimized SQL generation",
             "Integrated LLMs using LangChain",
             "Developed scalable backend APIs"
         ]
-        },
-        {
-        "title": "Agent-Based AI Workflow System",
+    },
+    {
+        "name": "Agent-Based AI Workflow System",
         "role": "AI Engineer",
         "description": "Developed agent-based workflows using LLMs to handle multi-step reasoning and task execution.",
-        
-        "tech": ["Python", "LangChain"],
-
+        "tech_stack": [
+            "Python",
+            "LangChain"
+        ],
         "highlight": "Agentic AI",
         "impact": "Enabled automation of multi-step tasks using LLM-driven workflows",
-
         "details": [
             "Built agent-like workflows for sequential task execution",
             "Handled multi-step reasoning using LLM chains",
             "Integrated workflows with backend APIs",
             "Designed modular and extensible system structure"
         ]
-        }
     }
 ]
