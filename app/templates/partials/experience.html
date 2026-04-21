@@ -1,23 +1,50 @@
 <section id="experience" class="section">
     <h2 class="section-title">Experience</h2>
+
     <div class="timeline">
-        {% for job in experience %}
+
+        {% for exp in resume.experience %}
         <div class="timeline-item">
+
             <div class="timeline-marker"></div>
-            <div class="timeline-content card">
-                <div class="timeline-header">
-                    <h3 class="job-title">{{ job.title }}</h3>
-                    <span class="job-company">{{ job.company }}</span>
-                    <span class="job-date">{{ job.start_date }} - {{ job.end_date }}</span>
-                </div>
-                <p class="job-description">{{ job.description }}</p>
+
+            <div class="card">
+
+                <!-- 🔥 HEADER -->
+                <h3 class="job-title">{{ exp.role }}</h3>
+                <p class="job-company">{{ exp.company }}</p>
+                <span class="job-date">{{ exp.duration }}</span>
+
+                <!-- 🔥 OPTIONAL HIGHLIGHT -->
+                {% if exp.highlight %}
+                <p class="exp-highlight">⚡ {{ exp.highlight }}</p>
+                {% endif %}
+
+                <!-- 🔥 DESCRIPTION -->
+                <p class="job-description">
+                    {{ exp.description }}
+                </p>
+
+                <!-- 🔥 BULLETS -->
                 <ul class="job-bullets">
-                    {% for bullet in job.bullets %}
-                    <li>{{ bullet }}</li>
+                    {% for point in exp.points %}
+                    <li>{{ point }}</li>
                     {% endfor %}
                 </ul>
+
             </div>
+
         </div>
         {% endfor %}
+
     </div>
+
+    <!-- 🔥 NDA SECTION (NEW BUT SAFE ADDITION) -->
+    <div class="card nda-card">
+        <h3 class="job-title">Confidential / NDA Work</h3>
+        <p class="job-description">
+            Worked on AI systems for defence-related use cases, focusing on secure, scalable, and production-ready deployments involving LLM-based workflows and backend systems.
+        </p>
+    </div>
+
 </section>

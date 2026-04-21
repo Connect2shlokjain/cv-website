@@ -94,6 +94,62 @@ body {
 }
 
 /* Hero Section */
+
+/* Improve subtitle structure (2-line control) */
+.hero-subtitle {
+    font-size: 2rem; /* increased from 1.5rem */
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+/* Second line styling */
+.hero-sub-line {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-top: 6px;
+    color: #94a3b8;
+}
+
+/* Better description readability */
+.hero-description {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    margin-bottom: 30px;
+    max-width: 520px;
+    line-height: 1.7;
+}
+
+/* Optional tags below subtitle */
+.hero-tags {
+    margin-bottom: 20px;
+}
+
+.hero-tags span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    border: 1px solid var(--card-border);
+}
+
+/* Improve hero spacing */
+.hero-text {
+    max-width: 620px; /* slight increase */
+}
+
+/* Improve button spacing */
+.hero-buttons {
+    gap: 15px;
+}
+
 .hero-section {
     padding: 100px 0;
     display: flex;
@@ -101,9 +157,7 @@ body {
     justify-content: space-between;
 }
 
-.hero-text {
-    max-width: 600px;
-}
+
 
 .hero-title {
     font-family: var(--font-heading);
@@ -116,17 +170,9 @@ body {
     color: var(--primary-color);
 }
 
-.hero-subtitle {
-    font-size: 1.5rem;
-    color: var(--secondary-color);
-    margin-bottom: 20px;
-}
 
-.hero-description {
-    font-size: 1.1rem;
-    color: #94a3b8;
-    margin-bottom: 30px;
-}
+
+
 
 .hero-buttons {
     display: flex;
@@ -180,7 +226,7 @@ body {
 
 /* Sections */
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .section-title {
@@ -213,7 +259,7 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     border-color: var(--primary-color);
 }
 
@@ -289,7 +335,7 @@ body {
 }
 
 .project-title {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     color: var(--text-color);
 }
 
@@ -347,7 +393,7 @@ body {
 }
 
 .skill-tag:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.12);
     border-color: var(--secondary-color);
 }
 
@@ -448,39 +494,15 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .hero-section {
-        flex-direction: column-reverse;
-        /* Image on top on mobile */
-        text-align: center;
-        padding: 60px 0;
+    .hero-subtitle {
+        font-size: 1.5rem;
     }
 
-    .hero-image {
-        margin-left: 0;
-        margin-bottom: 30px;
-        width: 200px;
-        height: 200px;
+    .hero-sub-line {
+        font-size: 1rem;
     }
 
-
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-    .social-links {
-        justify-content: center;
-    }
-
-    .content-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .nav-links {
-        display: none;
-        /* Mobile menu to be added if needed, for now simple */
+    .hero-description {
+        font-size: 0.95rem;
     }
 }

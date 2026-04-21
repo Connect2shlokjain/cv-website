@@ -1,40 +1,44 @@
 [
     {
-        "title": "AI Engineer",
-        "company": "Upsala",
-        "start_date": "Sep 2025",
-        "end_date": "Current",
-        "description": "Serving Ministry of Defence through Upsala is an experience, using technology and resources like never before.",
-        "bullets": [
-            "Used and Integrated various LLMs and transformed them to get predictions.",
-            "Implemented RAG using LangChain AI."
-        ]
-    },
+  "company": "Upsala",
+  "role": "AI Engineer",
+  "duration": "Sep 2025 – Present",
+  "highlight": "Production AI Systems | LLMs + Backend",
+  "description": "Working on real-world AI systems involving LLM applications, backend APIs, and intelligent workflows.",
+
+  "points": [
+    "Developed RAG pipelines for context-aware information retrieval",
+    "Built NL2SQL systems to convert natural language into SQL queries",
+    "Implemented agent-based workflows for multi-step task execution",
+    "Integrated LLMs using LangChain for production use cases",
+    "Designed and deployed scalable backend APIs"
+  ]
+},
     {
-        "title": "Python AI Developer",
-        "company": "Flynaut Saas",
-        "start_date": "Oct 2024",
-        "end_date": "Sep 2025",
-        "description": "Full Time Role focusing on Python AI Development.",
-        "bullets": [
-            "Python Language & WebScraping.",
-            "Hands on AI Tools and Technology.",
-            "API building.",
-            "Django Development and deployment.",
-            "Machine Learning, Deep Learning, NLP, Computer Vision."
-        ]
-    },
+  "company": "Flynaut SaaS",
+  "role": "Python AI Developer",
+  "duration": "Oct 2024 – Sep 2025",
+  "highlight": "Backend + AI Development",
+  "description": "Worked across backend systems and AI/ML solutions for real-world applications.",
+
+  "points": [
+    "Developed REST APIs using FastAPI and Django",
+    "Built ML models and NLP pipelines",
+    "Created web scraping systems using Scrapy and BeautifulSoup",
+    "Worked across full-stack development including backend and AI integration"
+  ]
+},
     {
-        "title": "Data Science Intern",
-        "company": "Ai Variant Project",
-        "start_date": "29 May 2023",
-        "end_date": "29 Nov 2023",
-        "description": "6 Months Internship.",
-        "bullets": [
-            "Worked on Streamlit apps (global & local).",
-            "Implemented Random Forest, TFIDF, NLP (data-mining).",
-            "Used Flask for deployment.",
-            "Achieved 97% Accuracy."
-        ]
-    }
+  "company": "AI Variant",
+  "role": "Data Science Intern",
+  "duration": "May 2023 – Nov 2023",
+  "highlight": "ML + NLP Projects",
+  "description": "Worked on end-to-end machine learning and NLP projects.",
+
+  "points": [
+    "Led NLP and ML projects as Team Lead",
+    "Handled data preprocessing, model building, and evaluation",
+    "Deployed ML models using Flask and Streamlit"
+  ]
+}
 ]

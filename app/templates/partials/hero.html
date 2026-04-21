@@ -1,24 +1,42 @@
 <section id="hero" class="hero-section">
     <div class="hero-text">
-        <h1 class="hero-title">Hello, I'm <span class="highlight">{{ resume.name }}</span></h1>
-        <h2 class="hero-subtitle">{{ resume.title }}</h2>
-        <p class="hero-description">{{ resume.summary }}</p>
+
+        <h1 class="hero-title">
+            Hello, I'm <span class="highlight">{{ resume.name }}</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+            AI Engineer building production-grade AI systems<br>
+            <span class="hero-sub-line">LLMs, RAG, NL2SQL & Agent-based Workflows</span>
+        </h2>
+
+        <p class="hero-description">
+            2+ years of experience across AI and backend systems, working on real-world applications including RAG pipelines, NL2SQL models, and agent-driven workflows. Contributed to production-level solutions, including NDA projects associated with the Indian Army.
+        </p>
+
         <div class="hero-buttons">
-            <a href="/static/Shlok_Jain_AI_Devloper.pdf" class="btn btn-primary" download><i
-                    class="fas fa-download"></i> Download
-                CV</a>
+            <a href="/static/Shlok_Jain_AI_Devloper.pdf" class="btn btn-primary" download>
+                <i class="fas fa-download"></i> Download CV
+            </a>
             <a href="#contact" class="btn btn-secondary">Get in Touch</a>
         </div>
+
         <div class="social-links">
             {% if resume.socials.linkedin %}
-            <a href="{{ resume.socials.linkedin }}" target="_blank" aria-label="LinkedIn"><i
-                    class="fab fa-linkedin"></i></a>
+            <a href="{{ resume.socials.linkedin }}" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
             {% endif %}
+
             {% if resume.socials.github %}
-            <a href="{{ resume.socials.github }}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="{{ resume.socials.github }}" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
             {% endif %}
         </div>
+
     </div>
+
     <div class="hero-image">
         <img src="/static/img/profile.png" alt="{{ resume.name }}">
     </div>
